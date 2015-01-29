@@ -1,2 +1,1 @@
-#! /bin/sh #|
-exec mzscheme -f as.scm |# (load "news.arc") (nsv) 
+mzscheme -f as.scm < script.arc &
